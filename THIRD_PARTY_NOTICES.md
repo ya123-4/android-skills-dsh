@@ -3,7 +3,7 @@
 The skill content in this package is copied unmodified from:
 
 - Project: Android Skills
-- Repository: https://github.com/android/skills (tag `v1.0.15`, 2026-10-14)
+- Repository: https://github.com/android/skills (tag `v1.0.15`)
 - License: Apache License 2.0
 - Copyright: Copyright Google LLC
 
@@ -14,8 +14,10 @@ The Apache License 2.0 text is reproduced in `LICENSE` at the package root.
 Every file under each skill directory declared by upstream's
 `.claude-plugin/plugin.json` `skills[]` is copied byte-for-byte, support files
 included (`references/`, `resources/`, `scripts/`, sample `.kt` / `.xml` / `.pftxt`
-assets). No skill body, description (beyond the profile's Chinese localisation
-applied by skill-sync) or asset is rewritten.
+assets). The one exception is the frontmatter `description` line of each
+`SKILL.md`, which skill-sync rewrites to the profile's Chinese wording (from its
+`descriptions-zh.json` overlay); skill bodies, all other frontmatter, and every
+support file are unchanged.
 
 ## What is not bundled
 
