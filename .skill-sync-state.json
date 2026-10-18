@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "package": "android-skills-dsh",
+  "upstream": "android/skills",
+  "syncedTag": "v1.0.15",
+  "syncedCommit": null,
+  "syncedAt": "2026-10-18T10:42:50+00:00",
+  "overlayVersion": 1,
+  "skills": {
+    "adaptive": {
+      "files": 12,
+      "sha256": "4b52442ba31b7b67fc67e2804fef062b6198860ee6e8953436e344af918b313b"
+    },
+    "agp-9-upgrade": {
+      "files": 7,
+      "sha256": "d016afd10c7a9c2da60baae46feb87026d9d50d8609580e8c4aaf53ad350412c"
+    },
+    "android-cli": {
+      "files": 3,
+      "sha256": "4247b02ed4875629c75bae93867981fa697142e902b63b51068c2536d03c6811"
+    },
+    "android-for-cars-parked-apps": {
+      "files": 2,
+      "sha256": "6ce3cefc26d11cd1bd8bf3c60e5f73c8a1b6e92de3003e6b1daba39a82ffe19d"
+    },
+    "android-intent-security": {
+      "files": 1,
+      "sha256": "93861ad4586dee035c7361bb7391fdb833e33cc4ba02aaf711b919d7d43463a8"
+    },
+    "android-permissions-security": {
+      "files": 4,
+      "sha256": "0d490362283a43920c68e887ed7dc1c4c640571a0298e6a9c6dc3c54a0abd966"
+    },
+    "android-profiler": {
+      "files": 26,
+      "sha256": "2bf92651517366e213ac0f29a32a0fdbd13360d03f4c033d3865e1ef27742b9d"
+    },
+    "appfunctions": {
+      "files": 7,
+      "sha256": "a54e25db396e5dd710ef89675bb1323fb71d85b922f9beffec5df2e9d39194a1"
+    },
+    "camerax": {
+      "files": 13,
+      "sha256": "69ee33bfa5d7187e4d6bf0b70ff4bd8794c54524684dd2200e0852edc3e6ac15"
+    },
+    "display-glasses-with-jetpack-compose-glimmer": {
+      "files": 32,
+      "sha256": "5c5616c0e9bd9617ef0efcbf508b2967fe16a60ef8926d9b4133cef2ac542fbf"
+    },
+    "edge-to-edge": {
+      "files": 1,
+      "sha256": "2fa26cd0f0ae216c6e68280425924a93f63763ecdc23e7031570c3f974596f9b"
+    },
+    "engage-sdk-integration": {
+      "files": 29,
+      "sha256": "412e403c7d7634764ab34742ae541e1e56d4d8157e250ebb3d1cf8d50dff2853"
+    },
+    "glance-canonical-layouts": {
+      "files": 88,
+      "sha256": "9e4c5bd395def6f564fe52465cb24d01b84c42b99cffd196ca84f174a976f248"
+    },
+    "jetpack-compose-performance": {
+      "files": 10,
+      "sha256": "d8895a5b7fe2bc23d6d1d1f0bf83ad616ee66295eabbc619a60dcc582d781f5f"
+    },
+    "leanback-to-compose-tv-migration": {
+      "files": 4,
+      "sha256": "45157d52de02fbbaa8db0fe7d165bb753e4309890ff49e9982e633a26df99b59"
+    },
+    "litert-runtime": {
+      "files": 3,
+      "sha256": "3d2c9c7cce536bcf3b93e6186f0e484c381167cbf00e8e9401d95ac7ec785cad"
+    },
+    "media3-cast-integration": {
+      "files": 4,
+      "sha256": "ad9e9105653bb017c1284be76015483dc77e86aab8c994710be94017fd5d3d6f"
+    },
+    "migrate-xml-views-to-jetpack-compose": {
+      "files": 8,
+      "sha256": "470fd9f0ca8b620bf94a238d257891728c7449d82e87094cbb7a6e77909cb5e8"
+    },
+    "ml-kit-genai-prompt-api": {
+      "files": 7,
+      "sha256": "b8aa3640da0a02d08f9a01a444033f74d5ebb3ed0b50a3a6b7d5aeb0f30dda6f"
+    },
+    "navigation-3": {
+      "files": 28,
+      "sha256": "bc8e8038eb847eace9c2a17f3451e7841a07640d83e34a017b2a784f8f303268"
+    },
+    "navigation-event": {
+      "files": 5,
+      "sha256": "1b57e6a2088f6a980589cdb45649ba607d66db6b44512171785bcdab2e3676b0"
+    },
+    "play-billing-library-version-upgrade": {
+      "files": 4,
+      "sha256": "257980f676a3e3e50eb76da84c471dda2dbb66e85454eca306ea8f09b570263f"
+    },
+    "play-policy-insights": {
+      "files": 14,
+      "sha256": "203be71977b65c6a85977a9154e5d9e5054789e091f2495a9e97b73943a286d1"
+    },
+    "r8-analyzer": {
+      "files": 9,
+      "sha256": "86ebb66b6090f45029d36aa40f0afe4222a2a167d048f3e024518c2d1802df73"
+    },
+    "restore-credentials": {
+      "files": 4,
+      "sha256": "5e6b1c5f349c50d262c0761cd6c70fd31f827024f0cd6e317df4a1e288258085"
+    },
+    "styles": {
+      "files": 6,
+      "sha256": "b91beaf352328aa43c4fc506a11ea7667afed02faddc52a6be73bfa143d6d856"
+    },
+    "testing-setup": {
+      "files": 5,
+      "sha256": "4eb9b3c77e0321d001917628aaefd923b47ed07dd08e590121fcbdec3c9ba873"
+    },
+    "verified-email": {
+      "files": 8,
+      "sha256": "cade6d3155269bfd6db2fc8f3d5b588236849aed9441a07b6e41d806c68db121"
+    },
+    "wear-compose-m3": {
+      "files": 53,
+      "sha256": "721edd46bc408a677d502c58687b51b410c41bb287811dac9bbeac052426e54a"
+    },
+    "wear-widgets": {
+      "files": 5,
+      "sha256": "677ceb7652aaa475047b311e33b1f46d8bf15f569a5e887bd8373db6c7fa716e"
+    }
+  }
+}
