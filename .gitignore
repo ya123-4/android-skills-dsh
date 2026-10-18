@@ -8,6 +8,9 @@ dist/
 __pycache__/
 *.pyc
 
+# skill-sync landing backups and staging (rolling, never sources)
+.skill-sync/
+
 # local git publishing state (never commit the token)
 *config.json
 .env
