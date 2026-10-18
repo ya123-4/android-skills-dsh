@@ -1,0 +1,46 @@
+{
+  "name": "android-skills-dsh",
+  "version": "1.0.15",
+  "description": "Google 官方 android/skills 1.0.15 的 DeepSeek Harness skill 插件包：AGP 升级、CameraX、Compose 性能、Navigation 3、Wear OS、XR、Play Billing/Engage、R8、权限与 Intent 安全等 30 个 Android 开发 skill。纯 skill 包。 | DeepSeek Harness skill bundle for Google's android/skills 1.0.15: 30 Android development skills covering AGP upgrades, CameraX, Compose performance, Navigation 3, Wear OS, XR, Play Billing/Engage, R8, permissions and Intent security. Skill-only.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "locale"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skill",
+    "android",
+    "jetpack-compose",
+    "kotlin",
+    "wear-os",
+    "android-xr",
+    "android-tv",
+    "android-auto"
+  ],
+  "scripts": {
+    "pack": "npm pack"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
